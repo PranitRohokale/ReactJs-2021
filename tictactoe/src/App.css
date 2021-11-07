@@ -1,0 +1,38 @@
+body {
+    background-color: #000000;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+  }
+  
+  .box {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-mark{
+    font-size: xx-large;
+    font-weight: bolder;
+    animation: name 1s ease-in-out;
+    border: 5px solid purple;
+    color: purple;
+  }
+  @keyframes name{
+    from{
+      border: 5px solid purple;
+      transform: scale(1,1);
+    }to{
+      border: 8px solid purple;
+    }
+  }
+  .icon {
+    font-size: 35px;
+    color: #ffffff;
+  }
+
+  
